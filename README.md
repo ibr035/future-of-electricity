@@ -1,6 +1,6 @@
 # Welcome to the Future of Fintech Spring 2023 challenge!
 
-## **Theme:** ⚡ Electricity ⚡
+## **Theme:** ⚡ Electricity ⚡ test
 
 For the past year and a half, electricity prices have been soaring and it affects us all. To help save on prices people have quickly become much more conscious about their usage.
 
