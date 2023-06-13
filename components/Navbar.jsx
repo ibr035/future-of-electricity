@@ -9,16 +9,17 @@ const navigation = [
     { name: 'Articles', href: '/articles', current: false },
     { name: 'Consumption', href: '/consumption', current: false },
     { name: 'About', href: '/about', current: false },
+    { name: 'Providers', href: '/providers', current: false},
 ]
 
 function classNames(...classes) {
     return classes.filter(Boolean).join(' ')
 }
 
-export default function Navbar() {
+export default function Navbar(current) {
     return (
 
-        <Disclosure as="nav" className="bg-gray-600">
+        <Disclosure as="nav" className="bg-gray-600 z-index=1">
             {({ open }) => (
                 <>
                     <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
@@ -35,7 +36,7 @@ export default function Navbar() {
                             <div className="hidden sm:ml-6 sm:block">
                                 <div className="flex space-x-4">
                                     {navigation.map((item) => (
-                                        <a
+                                        <Link
                                             key={item.name}
                                             href={item.href}
                                             className={classNames(
@@ -45,7 +46,7 @@ export default function Navbar() {
                                             aria-current={item.current ? 'page' : true}
                                           >
                                             {item.name}
-                                        </a>
+                                        </Link>
                                     ))}
                                 </div>
                             </div>

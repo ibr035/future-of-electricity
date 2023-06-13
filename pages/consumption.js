@@ -20,7 +20,6 @@ const ChartDataFromAPI = dynamic(
 const Consumption = () => {
     return (
         <div>
-            <Navbar/>
             <h1>The consumption tables:</h1>
             <ChartDataFromFile />
             <ChartDataFromAPI />
