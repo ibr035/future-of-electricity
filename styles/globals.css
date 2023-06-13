@@ -10,3 +10,24 @@ html {
   margin-top: 100px;
   padding: 0 auto;
 }
+
+.card {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin: 20px;
+
+}
+
+.card-item{
+  padding: 20px;
+  margin: 20px;
+  background-color: #e6c2fe;
+  width: 40%;
+
+}
+
+.h2{
+  font-weight: 600 ;
+  font-size: medium;
+}
