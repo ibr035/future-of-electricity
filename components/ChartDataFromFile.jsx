@@ -1,4 +1,4 @@
-import styles from "./Chart.module.css";
+import styles from "../Styles/Chart.module.css";
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Label } from "recharts";
 
 // Reading data directly from a JSON file
