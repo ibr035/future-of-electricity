@@ -41,7 +41,7 @@ const providers = () => {
             <h1 className="text-l font-bold tracking-tight text-gray-900 sm:text-4xl">The different providers</h1>
             <ul >
                 {console.log(providerData)}
-                <div className="card"> 
+                <div className="card bg-yellow"> 
                     {item}
                 </div>
 

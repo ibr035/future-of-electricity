@@ -2,12 +2,11 @@ import { useState } from 'react'
 import { Dialog } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 
-
 export default function LandingSection() {
     
     return (
         
-            <div className="bg-white">
+            <div className="bg-yellow">
                 <div className="relative isolate px-6 pt-14 lg:px-8">
                 
                     <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-36">
@@ -23,7 +22,7 @@ export default function LandingSection() {
                             <div className="mt-10 flex items-center justify-center gap-x-6">
                                 <a
                                     href="/providers"
-                                    className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                                    className="rounded-md bg-purple px-3.5 py-2.5 text-sm font-semibold text-black shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
                                 >
                                     Compare providers
                                 </a>

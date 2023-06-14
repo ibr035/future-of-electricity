@@ -22,7 +22,6 @@ html {
 .card-item{
   padding: 20px;
   margin: 20px;
-  background-color: #e6c2fe;
   width: 40%;
 
 }
@@ -30,4 +29,19 @@ html {
 .h2{
   font-weight: 600 ;
   font-size: medium;
+}
+
+.bg-yellow{
+  background-color: #F4EEE4;
+}
+
+.purple{
+  color:  #84006e;
+}
+.bg-purple{
+  background-color:  #FFDB58;
+}
+
+.height-100 {
+  height: 100%;
 }

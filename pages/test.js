@@ -1,6 +1,3 @@
-// Next.js API route support: https://nextjs.org/docs/api-routes/introduction
-//import consumption from "../../data/consumption.json";
-
 import { useEffect, useState } from "react";
 
 export default function handler() {
@@ -14,7 +11,7 @@ export default function handler() {
       .then(res => {
         displayData = res.map(function (item) {
           return (
-            <p>{item.from}</p>
+            <p key={index}>{item.from}</p>
           )
         })
         console.log(res)
@@ -26,8 +23,3 @@ export default function handler() {
   }, [])
 
 }
-/*
-export default function handler(req, res) {
-  res.status(200).json(consumption);
-}
-*/

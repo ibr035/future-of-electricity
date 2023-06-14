@@ -21,14 +21,14 @@ export default function Navbar(current) {
     let pathname = usePathname();
     return (
 
-        <Disclosure as="nav" className="bg-gray-600 z-index=1">
+        <Disclosure as="nav" className="bg-purple z-index=1">
             {({ open }) => (
                 <>
                     <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
                         <div className="relative flex h-16 items-center justify-between">
                             <div className="absolute inset-y-0 left-0 flex items-center sm:hidden"></div>
                             <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
-                                <div className="text-white"> 
+                                <div className="text-black"> 
                                 <Link href="/">
                                      Future of electricity
                                 </Link>
@@ -43,7 +43,7 @@ export default function Navbar(current) {
                                             href={item.href}
                                             className={classNames(
                                                 pathname === item.href
-                                              ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white',
+                                              ? 'bg-yellow text-black' : 'text-black hover:bg-black hover:text-white height-100',
                                               'block rounded-md px-3 py-2 text-base font-medium'
                                             )}
                                             aria-current={pathname === item.href ? 'page' : undefined}
