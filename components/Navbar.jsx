@@ -30,7 +30,7 @@ export default function Navbar(current) {
                             <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
                                 <div className="text-black bold"> 
                                 <Link href="/">
-                                     PowerSwap⚡️
+                                     ZapSwap⚡️
                                 </Link>
                                    
                                 </div>
