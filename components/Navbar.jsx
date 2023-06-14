@@ -2,14 +2,15 @@ import React from "react";
 import Link from "next/link";
 import { Disclosure, Menu, Transition } from '@headlessui/react'
 import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
+import {usePathname} from "next/navigation"
 
 
 const navigation = [
-    { name: 'Home', href: '/', current: true },
-    { name: 'Articles', href: '/articles', current: false },
-    { name: 'Consumption', href: '/consumption', current: false },
-    { name: 'About', href: '/about', current: false },
-    { name: 'Providers', href: '/providers', current: false},
+    { name: 'Home', href: '/' },
+    { name: 'Articles', href: '/articles' },
+    { name: 'Consumption', href: '/consumption' },
+    { name: 'About', href: '/about'},
+    { name: 'Providers', href: '/providers'},
 ]
 
 function classNames(...classes) {
@@ -17,6 +18,7 @@ function classNames(...classes) {
 }
 
 export default function Navbar(current) {
+    let pathname = usePathname();
     return (
 
         <Disclosure as="nav" className="bg-gray-600 z-index=1">
@@ -40,10 +42,11 @@ export default function Navbar(current) {
                                             key={item.name}
                                             href={item.href}
                                             className={classNames(
-                                              item.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white',
+                                                pathname === item.href
+                                              ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white',
                                               'block rounded-md px-3 py-2 text-base font-medium'
                                             )}
-                                            aria-current={item.current ? 'page' : true}
+                                            aria-current={pathname === item.href ? 'page' : undefined}
                                           >
                                             {item.name}
                                         </Link>
