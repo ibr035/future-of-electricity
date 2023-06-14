@@ -3,7 +3,7 @@ import { LineChart, Line, XAxis, YAxis, CartesianGrid, Label } from "recharts";
 import { useEffect, useState } from "react";
 
 
-// here we fetch data from the Files as the provider API gave 500 error 
+// here we fetch data from the Files 
 import data from "../data/providers.json";
 
 

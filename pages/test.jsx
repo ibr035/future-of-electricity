@@ -1,11 +1,11 @@
 import { useEffect, useState } from "react";
 
-export default function handler() {
+export default function Handler() {
   const [showItems, setShowItems] = useState();
-  const apiUrl = 'https://future-of-fintech-v2023.vercel.app/api/consumption'
+  const apiUrl = 'https://future-of-fintech-v2023.vercel.app/api/providers'
 
   let displayData
-  function getData() {
+  function GetData() {
     fetch(apiUrl)
       .then(res => res.json)
       .then(res => {
@@ -19,7 +19,7 @@ export default function handler() {
       })
   }
   useEffect(() => {
-    getData()
+    GetData()
   }, [])
 
 }

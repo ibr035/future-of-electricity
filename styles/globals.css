@@ -31,17 +31,45 @@ html {
   font-size: medium;
 }
 
-.bg-yellow{
+.bg-beige{
   background-color: #F4EEE4;
 }
 
-.purple{
-  color:  #84006e;
+.beige{
+  color: #F4EEE4;
 }
-.bg-purple{
+
+.yellow{
+  color: #FFDB58;
+}
+
+
+.bg-yellow{
   background-color:  #FFDB58;
 }
 
 .height-100 {
   height: 100%;
+}
+
+.footer{
+  height: 100px;
+  width: 100%;
+  bottom: 0;
+  display: flex;
+}
+
+.nav{
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.section{
+  padding: 5% 10%;
+  margin: 0 auto;
+}
+
+.bold{
+  font-weight: bold;
 }
