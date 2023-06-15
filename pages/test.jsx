@@ -15,7 +15,7 @@ const cors = require('cors');
 
 //let displayData
 async function fetchData() {
-  return await fetch(apiUrl, { mode: 'no-cors' })
+  return await fetch(apiUrl)
     .then(res => {
       res.text()
     })
