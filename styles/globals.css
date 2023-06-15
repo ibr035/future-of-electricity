@@ -77,3 +77,7 @@ html {
 .ptb5{
   padding: 5% 0;
 }
+
+.min-height{
+  min-height: 80vh;
+}

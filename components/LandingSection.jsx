@@ -27,7 +27,7 @@ export default function LandingSection() {
                                     Velg strømavtale
                                 </a>
                                 <a href="./consumption" className="text-sm font-semibold leading-6 text-gray-900">
-                                    Se forbruk <span aria-hidden="true">→</span>
+                                    Se gjennomsnittlig forbruk <span aria-hidden="true">→</span>
                                 </a>
                             </div>
                         </div>

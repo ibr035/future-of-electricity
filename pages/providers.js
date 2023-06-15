@@ -6,18 +6,16 @@ import { useEffect, useState } from "react";
 // here we fetch data from the Files 
 import data from "../data/providers.json";
 
-
-
 const providers = () => {
     const item = data.map((product, index) => (
         <div key={index} className="card-item bg-yellow">
             {product.name !== undefined && <h2 className="h2"> {product.name}</h2>}
-            {product.pricingModel !== undefined && <div>pricingModel: {product.pricingModel}</div>}
-            {product.monthlyFee !== undefined && <div>monthlyFee: {product.monthlyFee}</div>}
-            {product.fixedPrice !== undefined && <div>fixedPrice: {product.fixedPrice}</div>}
-            {product.fixedPricePeriod !== undefined && <div>fixedPricePeriod: {product.fixedPricePeriod}</div>}
-            {product.variablePrice !== undefined && <div>variablePrice: {product.variablePrice}</div>}
-            {product.spotPrice !== undefined && <div>spotPrice: {product.spotPrice}</div>}
+            {product.pricingModel !== undefined && <div>PrisModel: {product.pricingModel}</div>}
+            {product.monthlyFee !== undefined && <div>Månedlige kostnader: {product.monthlyFee}</div>}
+            {product.fixedPrice !== undefined && <div>Fast pris: {product.fixedPrice}</div>}
+            {product.fixedPricePeriod !== undefined && <div>Bindingstid: {product.fixedPricePeriod}</div>}
+            {product.variablePrice !== undefined && <div>Variabel pris: {product.variablePrice}</div>}
+            {product.spotPrice !== undefined && <div>Spot pris: {product.spotPrice}</div>}
         </div>
 
     ))

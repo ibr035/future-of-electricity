@@ -4,7 +4,7 @@ import { CloudArrowUpIcon, LockClosedIcon, ServerIcon } from '@heroicons/react/2
 
 const About = () => {
 	return (
-		<body className="bg-beige">
+		<div className="bg-beige">
 			<div className="section items-center mx-auto max-w-5xl  ">
 				<div className="max-w-4xl mx-auto items-center">
 
@@ -53,7 +53,7 @@ const About = () => {
 						vurdere egne behov før du inngår en strømavtale.</p>
 				</div>
 			</div>
-		</body>
+		</div>
 	);
 };
 

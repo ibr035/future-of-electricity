@@ -3,7 +3,7 @@ import Navbar from "../../components/Navbar";
 
 const Articles = () => {
 	return (
-		<body>
+		<div className='min-height'>
 			<div className="bg-beige">
 				<div className="relative isolate px-6 pt-14 lg:px-8">
 
@@ -19,7 +19,7 @@ const Articles = () => {
 
 				</div>
 			</div>
-		</body>
+		</div>
 
 	);
 };

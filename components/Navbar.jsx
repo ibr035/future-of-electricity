@@ -8,7 +8,7 @@ import {usePathname} from "next/navigation"
 const navigation = [
     { name: 'Hjem', href: '/' },
     { name: 'Artikler', href: '/articles/' },
-    { name: 'Forbruk', href: '/consumption' },
+    { name: 'Snittforbruk', href: '/consumption' },
     { name: 'Om strømavataler', href: '/about'},
     { name: 'Velg strømavtale', href: '/providers'},
 ]
