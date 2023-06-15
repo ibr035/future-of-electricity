@@ -73,3 +73,7 @@ html {
 .bold{
   font-weight: bold;
 }
+
+.ptb5{
+  padding: 5% 0;
+}

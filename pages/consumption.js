@@ -19,10 +19,15 @@ const ChartDataFromAPI = dynamic(
 
 const Consumption = () => {
     return (
-        <div>
-            <h1>The consumption tables:</h1>
-            <ChartDataFromFile />
-            <ChartDataFromAPI />
+        <div className="max-w-6xl mx-auto items-center">
+            <h1 className="sm:text-4xl ptb5 text-3xl font-bold sm:text-4xl">
+                Grafer over gjennomsnittlig bruk for en familie i Norge:
+            </h1>
+            <div className="ptb5">
+                <ChartDataFromFile />
+                <ChartDataFromAPI />
+            </div>
+
         </div>
     );
 };

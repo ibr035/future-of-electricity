@@ -1,26 +1,57 @@
 import React from "react";
 import Navbar from "../components/Navbar";
+import { CloudArrowUpIcon, LockClosedIcon, ServerIcon } from '@heroicons/react/20/solid'
 
 const About = () => {
 	return (
 		<body className="bg-beige">
-			<div className="section items-center mx-auto max-w-6xl ">
-				<h1 className="sm:text-4xl">
-					Hva gjør en strømavtale god eller dårlig?
-				</h1>
-				<p> Forskjellen mellom en god og en dårlig strømavtale kan variere avhengig av individuelle preferanser og behov. Generelt sett kan følgende faktorer bidra til å skille mellom dem:
-				</p> 
-					<h2 className="h2">Pris: </h2> <p>En god strømavtale vil ha konkurransedyktige priser og lave kostnader per kilowattime (kWh). Det er viktig å sammenligne priser fra ulike strømleverandører for å sikre at du får en avtale som passer budsjettet ditt.
-				</p> <p>
-					Avtaletype: Det finnes ulike typer strømavtaler, for eksempel spotprisavtaler, fastprisavtaler og variabelprisavtaler. En god avtale vil være tilpasset dine behov og risikovillighet. Hvis du ønsker forutsigbarhet, kan en fastprisavtale være gunstig, mens en spotprisavtale kan gi mulighet for å dra nytte av prisvariasjoner.
-				</p> <p>
-					Varighet: Strømavtaler kan ha forskjellige varigheter, for eksempel ett år eller flere år. En god avtale vil ha en passende varighet som passer din langsiktige planlegging. Det kan være lurt å unngå avtaler med lange bindingstider, da dette begrenser fleksibiliteten din til å bytte til bedre tilbud.
-				</p> <p>
-					Klimavennlighet: I dagens miljøbevisste samfunn er mange opptatt av å velge strømavtaler som er fornybare og miljøvennlige. En god strømavtale kan inkludere en høy andel fornybar energi, for eksempel vannkraft, vindkraft eller solenergi.
-				</p> <p>
-					Kundeservice: God kundeservice er også en viktig faktor. En god strømavtale vil komme fra en pålitelig strømleverandør som er kjent for å håndtere henvendelser og problemer effektivt. Det kan være nyttig å lese anmeldelser og vurdere leverandørens omdømme før du tar en beslutning.
-				</p> <p>
-					Det er viktig å merke seg at hva som kan være en god eller dårlig strømavtale for en person, kan variere basert på individuelle preferanser, strømforbruk og geografisk beliggenhet. Det kan derfor være lurt å sammenligne flere tilbud og vurdere egne behov før du inngår en strømavtale.</p>
+			<div className="section items-center mx-auto max-w-5xl  ">
+				<div className="max-w-4xl mx-auto items-center">
+
+					<h1 className="sm:text-4xl ptb5 mt-2 text-3xl font-bold sm:text-4xl">
+						Hva gjør en strømavtale god eller dårlig?
+					</h1>
+					<p> Forskjellen mellom en god og en dårlig strømavtale kan variere avhengig
+						av individuelle preferanser og behov. Generelt sett kan følgende faktorer
+						bidra til å skille mellom dem:
+					</p>
+
+					<h2 className="mt-10 text-2xl font-bold tracking-tight text-gray-900">Pris: </h2>
+					<p className="mt-4">En god strømavtale vil ha konkurransedyktige priser og lave kostnader per
+						kilowattime (kWh). Det er viktig å sammenligne priser fra ulike strømleverandører
+						for å sikre at du får en avtale som passer budsjettet ditt.
+					</p>
+
+					<h2 className="mt-10 text-2xl font-bold tracking-tight text-gray-900"> Avtaletype: </h2>
+					<p className="mt-4"> Det finnes ulike typer strømavtaler, for eksempel spotprisavtaler,
+						fastprisavtaler og variabelprisavtaler. En god avtale vil være tilpasset dine
+						behov og risikovillighet. Hvis du ønsker forutsigbarhet, kan en fastprisavtale
+						være gunstig, mens en spotprisavtale kan gi mulighet for å dra nytte av
+						prisvariasjoner.
+					</p>
+					<h2 className="mt-10 text-2xl font-bold tracking-tight text-gray-900">Varighet: </h2>
+					<p className="mt-4"> Strømavtaler kan ha forskjellige varigheter, for eksempel ett år
+						eller flere år. En god avtale vil ha en passende varighet som passer din
+						langsiktige planlegging. Det kan være lurt å unngå avtaler med lange bindingstider,
+						da dette begrenser fleksibiliteten din til å bytte til bedre tilbud.
+					</p>
+					<h2 className="mt-10 text-2xl font-bold tracking-tight text-gray-900">Klimavennlighet:</h2>
+					<p className="mt-4">
+						I dagens miljøbevisste samfunn er mange opptatt av å velge
+						strømavtaler som er fornybare og miljøvennlige. En god strømavtale kan inkludere
+						en høy andel fornybar energi, for eksempel vannkraft, vindkraft eller solenergi.
+					</p>
+					<h2 className="mt-10 text-2xl font-bold tracking-tight text-gray-900">Kundeservice: </h2>
+					<p className="mt-4">God kundeservice er også en viktig faktor. En god strømavtale vil
+						komme fra en pålitelig strømleverandør som er kjent for å håndtere henvendelser
+						og problemer effektivt. Det kan være nyttig å lese anmeldelser og vurdere l
+						everandørens omdømme før du tar en beslutning.
+					</p> <p className="mt-4">
+						Det er viktig å merke seg at hva som kan være en god eller dårlig strømavtale
+						for en person, kan variere basert på individuelle preferanser, strømforbruk og
+						geografisk beliggenhet. Det kan derfor være lurt å sammenligne flere tilbud og
+						vurdere egne behov før du inngår en strømavtale.</p>
+				</div>
 			</div>
 		</body>
 	);
