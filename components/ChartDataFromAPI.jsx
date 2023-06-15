@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 
 // here we fetch data from the API
 async function fetchData() {
+  //return await fetch("https://future-of-fintech-v2023.vercel.app/api/consumption",{mode: 'no-cors'}).then((res) => res.json());
   return await fetch("/api/consumption").then((res) => res.json());
 }
 
