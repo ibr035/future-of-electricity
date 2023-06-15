@@ -1,7 +1,7 @@
 # The future of electricity 
 
 ## How to run the application: 
-clone down using `git clone https://github.com/ibr035/future-of-electricity.git`, run`npm install` and then run `yarn dev`. 
+Clone down using `git clone https://github.com/ibr035/future-of-electricity.git`, run`npm install` and then run `yarn dev`. 
 
 ## Task description 
 I decided to start with the main layout of the content I thought relevant. A page with more information concerning the topic, a page for the provider data, the consumption data and adding an article section for future implementation. 
